@@ -1,0 +1,31 @@
+{
+  "symbol": "SPY",
+  "bar_size": "5min",
+  "feature_cols": [
+    "ret_1",
+    "roll_ret_3",
+    "roll_ret_z_3",
+    "roll_ret_6",
+    "roll_ret_z_6",
+    "roll_ret_12",
+    "roll_ret_z_12",
+    "roll_ret_24",
+    "roll_ret_z_24",
+    "realized_vol_12",
+    "realized_vol_48",
+    "realized_vol_288",
+    "volume_z",
+    "minutes_since_open",
+    "minutes_to_close",
+    "dow"
+  ],
+  "label_col": "fwd_ret_12",
+  "threshold_mult": 1.0,
+  "threshold_value": 0.00015048886420538474,
+  "pred_std": 0.00015048886420538474,
+  "max_hold_bars": 12,
+  "cost_bps": 1.0,
+  "trained_at_utc": "2026-09-06T17:34:59.142333+00:00",
+  "trained_on_data_through": "2026-09-04 14:55:00-04:00",
+  "n_training_bars": 118720
+}

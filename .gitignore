@@ -1,0 +1,25 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated data files - large, reproducible from scripts, don't commit.
+# Scoped by extension so scripts living in these same folders (e.g.
+# data/raw/fetch_alpaca_bars.py) still get tracked normally.
+data/raw/*.parquet
+data/raw/*.csv
+data/interim/*.parquet
+data/instruments/*.parquet
+
+# Large research-output plots/csvs from exploratory notebooks - keep the
+# scripts, skip the generated images/logs to keep repo size small.
+notebooks/phase2_output/*.png
+notebooks/phase4_output/*.png
+notebooks/phase4_output/*.csv
+notebooks/phase5_output/*.parquet
+notebooks/phase5_output/*.csv
+notebooks/phase7_output/*.png
+notebooks/phase8_output/*.png
+notebooks/phase8_output_vix/*.png
+
+.DS_Store
