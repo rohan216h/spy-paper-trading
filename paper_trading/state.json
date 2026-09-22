@@ -1,4 +1,9 @@
 {
-  "position": null,
-  "last_processed_bar": "2026-09-22 13:25:00-04:00"
+  "position": {
+    "direction": "LONG",
+    "entry_time": "2026-09-22 15:55:00-04:00",
+    "entry_price": 773.44,
+    "bars_held": 0
+  },
+  "last_processed_bar": "2026-09-22 15:55:00-04:00"
 }
